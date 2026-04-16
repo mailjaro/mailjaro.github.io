@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dokumentasjonshefter</title>
+
+    <meta name="author" content="Jan Roger Sandbakken">
+    <meta name="email" content="mailjaro@gmail.com">
+    <meta name="github_url" content="https://github.com/mailjaro">
+    <meta name="date" content="Mars 2026">
+    <meta name="version" content="1.0">
+    <meta name="status" content="Draft">
+
+    <style type="text/css">
+body {
+font-family: system-ui, sans-serif;
+line-height: 1.6;
+max-width: 80%;
+margin: 2rem auto;
+padding: 0 1rem;
+background-color: #111323;
+color: #d7caeb;
+font-family: Vazirmatn;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+line-height: 1.25;
+margin-top: 2em;
+margin-bottom: 0.5em;
+}
+h1 {
+font-size: 2em;
+}
+h2 {
+font-size: 1.6em;
+}
+h3 {
+font-size: 1.3em;
+}
+
+p {
+margin: 1em 0;
+}
+p>code {
+font-family: 'FiraCode Nerd Font Mono';
+font-size: 100%;
+color: bisque;
+padding: 0.2em 0.1em;
+}
+
+ul,
+ol {
+margin: 1em 0 1em 0.5em;
+font-family: sans-serif;
+}
+li {
+margin: 0.3em 0;
+}
+
+a {
+color: #5294d6;
+text-decoration: none;
+}
+a:visited {
+color: #5294d6;
+}
+a:hover {
+color: #c073aa;
+text-decoration: underline;
+}</style>
+</head>
+
+<body>
+
+    
+    <main>
+                <h1 id="startside-mailjaro">Startside mailjaro</h1>
+                <p>Hi. I am Jan (mailjaro ). I am a mathematician,
+                writing some novels, some documentation and do some
+                music production and coding from time to time. Here are
+                some of the documents that I have produced (all in
+                Norwegian).</p>
+                <h2 id="ulike-hefter">📚 Ulike hefter</h2>
+                <hr />
+                <h2 id="datatekniske-ting">💻 Datatekniske ting</h2>
+                <ul>
+                <li><a href="https://mailjaro.github.io/linux-repo/">Linux for
+                hjemmebruk</a></li>
+                <li><a href="https://mailjaro.github.io/git-repo/">Litt
+                om Git</a></li>
+                <li><a href="https://mailjaro.github.io/css-repo/">Litt
+                om CSS</a></li>
+                <li><a href="https://mailjaro.github.io/gpg-repo/">Litt
+                om GPG</a></li>
+                <li><a href="https://mailjaro.github.io/vscode-repo/">Litt om
+                VS Code</a></li>
+                <li><a href="https://mailjaro.github.io/makefile-repo/">Litt om
+                Makefiles</a></li>
+                <li><a href="https://mailjaro.github.io/fish-repo/">Litt
+                om Fish-shell</a></li>
+                <li><a href="https://mailjaro.github.io/highlight-repo/">Litt
+                om syntaksutheving</a></li>
+                <li><a href="https://mailjaro.github.io/ai-repo/">Moderne AI:
+                Virkemåte</a></li>
+                </ul>
+                <hr />
+                <h2 id="annet">🧩 Annet</h2>
+                <ul>
+                <li><a href="https://mailjaro.github.io/mixing-repo/">Litt om
+                mixing og mastering i Logic Pro</a></li>
+                <li><a href>Tegninger</a></li>
+                </ul>
+    </main>
+
+</body>
+
+<!-- Et skript som fjerne emojis i nav: -->
+<script>
+    window.onload = function () {
+        const menyLenker = document.querySelectorAll('nav a');
+
+        menyLenker.forEach(function (lenke) {
+            // 1. Fjern tall-boksene (1️⃣, 2️⃣) og "variation selectors"
+            let renTekst = lenke.textContent.replace(/[\uFE0F\u20E3]/g, '');
+
+            // 2. Den utvidede vaskelisten:
+            // Vi legger til \u2B50 for stjernen og \u2600-\u26FF for eldre symboler
+            renTekst = renTekst.replace(/([\u2B50]|\uD83C[\uDF00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|\uD83E[\uDD00-\uDFFF]|[\u2600-\u27BF])/g, '');
+
+            // 3. Trim og rydd
+            lenke.textContent = renTekst.trim();
+        });
+    };
+</script>
+
+</html>
