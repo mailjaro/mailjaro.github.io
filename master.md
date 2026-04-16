@@ -23,4 +23,4 @@ Hi. I am Jan (mailjaro ). I am a mathematician, writing some novels, some docume
 ## 🧩 Annet
 
 - [Litt om mixing og mastering i Logic Pro](https://mailjaro.github.io/mixing-repo/)
-- [Tegninger]()
+- [Tegninger](https://mailjaro.github.io/drawings-repo/)
