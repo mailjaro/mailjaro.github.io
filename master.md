@@ -1,6 +1,6 @@
 #  Startside mailjaro
 
-Hi. I am Jan (mailjaro ). I am a mathematician, writing some novels, some documentation and do some music production and coding from time to time. Here are some of the documents that I have produced (all in Norwegian).
+Hi. I am Jan (mailjaro ). I am a mathematician, writing some novels, some documentation and do some music production and coding from time to time. Here are some of the documents that I have produced (all but a few in Norwegian).
 
 ## 📚 Ulike hefter
 
