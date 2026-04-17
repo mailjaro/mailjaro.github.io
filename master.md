@@ -24,3 +24,5 @@ Hi. I am Jan (mailjaro ). I am a mathematician, writing some novels, some docume
 
 - [Litt om mixing og mastering i Logic Pro](https://mailjaro.github.io/mixing-repo/)
 - [Tegninger](https://mailjaro.github.io/drawings-repo/)
+- [Steps in whisky production](https://mailjaro.github.io/whisky-repo/)
+- [Steps in beer production](https://mailjaro.github.io/beer-repo/)
